@@ -1,0 +1,15 @@
+[package]
+name = "On-ChainPortfolioBuilderShowcasecoursecompletions"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "aa23f8309213a2ab09d219d365aeb409d3cecd0263ecd659384981c677fce53d"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "devnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
